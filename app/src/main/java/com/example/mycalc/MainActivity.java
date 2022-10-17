@@ -57,7 +57,20 @@ public class MainActivity extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                String[] countries={
+                        "MOROCCO",
+                        "USA",
+                        "RUSSIA",
+                        "CANADA",
+                        "ZIMBABWI",
+                        "ITALY",
+                        "SPAIN",
+                        "GERMANY",
+                        "POLLAND",
+                };
+                Random generated=new Random();
+                int num=generated.nextInt(countries.length);
+                main.setText(countries[num]);
             }
         });
 

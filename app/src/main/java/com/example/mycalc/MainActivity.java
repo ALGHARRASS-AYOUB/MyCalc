@@ -2,12 +2,15 @@ package com.example.mycalc;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 
+import android.graphics.Color;
 import android.os.Bundle;
 
 
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.util.Random;
@@ -16,7 +19,9 @@ public class MainActivity extends AppCompatActivity {
     Button b1,b2,b3,b4,b5,b6,b7,b8,b9,b0,bdot,bpi,bequal,bplus,bmin,bmul,bdiv,binv,bsqrt,bsquare,bln,btan,bcos,bsin,bb1,bb2,bc,bac;
     TextView main,resultat;
     String pi="3.14159265";
-
+    Book country=new Book();
+    ConstraintLayout cl;
+    LinearLayout ll;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -53,24 +58,17 @@ public class MainActivity extends AppCompatActivity {
         main = findViewById(R.id.main);
         resultat = findViewById(R.id.resultat);
 
+
         //button listeners
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String[] countries={
-                        "MOROCCO",
-                        "USA",
-                        "RUSSIA",
-                        "CANADA",
-                        "ZIMBABWI",
-                        "ITALY",
-                        "SPAIN",
-                        "GERMANY",
-                        "POLLAND",
-                };
                 Random generated=new Random();
-                int num=generated.nextInt(countries.length);
-                main.setText(countries[num]);
+                main.setText(country.getRandomCountry());
+                ll=findViewById(R.id.screenLayout);
+                cl=findViewById(R.id.constraintLayout);
+                ll.setBackgroundColor(Color.RED);
+                cl.setBackgroundColor(Color.BLUE);
             }
         });
 

@@ -1,8 +1,10 @@
 <resources>
     <string name="app_name">Calculatrice</string>
+    <string name="type_standard">Standard</string>
+    <string name="type_scientific">Scientific</string>
     <string name="bmin">-</string>
     <string name="bc">C</string>
-    <string name="bpi">π</string>
+    <string name="bce">CE</string>
     <string name="b5">5</string>
     <string name="b1">1</string>
     <string name="bequal">=</string>
@@ -13,11 +15,11 @@
     <string name="bdot">.</string>
     <string name="b6">6</string>
     <string name="b4">4</string>
-    <string name="bmul">×</string>
+    <string name="bmul">*</string>
     <string name="b9">9</string>
     <string name="b8">8</string>
     <string name="b7">7</string>
-    <string name="bdiv">÷</string>
+    <string name="bdiv">/</string>
     <string name="binv">1/x</string>
     <string name="bsqrt">√</string>
     <string name="bsquare">x²</string>
@@ -27,5 +29,14 @@
     <string name="bcos">cos</string>
     <string name="bb2">)</string>
     <string name="bb1">(</string>
-    <string name="bac">AC</string>
+    <string name="bac">↩</string>
+    <string name="title_activity_scientific">scientificActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>

@@ -1,3 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Calculatrice</string>
+    <string name="type_standard">Standard</string>
+    <string name="type_scientific">Scientifique</string>
+    <string name="bmin">-</string>
+    <string name="bc">C</string>
+    <string name="bce">CE</string>
+    <string name="b5">5</string>
+    <string name="b1">1</string>
+    <string name="bequal">=</string>
+    <string name="b0">0</string>
+    <string name="bplus">+</string>
+    <string name="b3">3</string>
+    <string name="b2">2</string>
+    <string name="bdot">.</string>
+    <string name="b6">6</string>
+    <string name="b4">4</string>
+    <string name="bmul">*</string>
+    <string name="b9">9</string>
+    <string name="b8">8</string>
+    <string name="b7">7</string>
+    <string name="bdiv">/</string>
+    <string name="binv">1/x</string>
+    <string name="bsqrt">√</string>
+    <string name="bsquare">x²</string>
+    <string name="bln">ln</string>
+    <string name="btan">tan</string>
+    <string name="bsin">sin</string>
+    <string name="bcos">cos</string>
+    <string name="bb2">)</string>
+    <string name="bb1">(</string>
+    <string name="bac">↩</string>
 </resources>

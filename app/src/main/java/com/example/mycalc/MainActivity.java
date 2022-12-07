@@ -1,7 +1,7 @@
 package com.example.mycalc;
 
 import static com.example.mycalc.R.id.*;
-import static com.example.mycalc.R.id.resultat;
+
 
 import  org.mozilla.javascript.Context;
 import  org.mozilla.javascript.Scriptable;

@@ -11,4 +11,5 @@
     <color name="orange_200">#FD6F2C</color>
     <color name="red">#C9E73131</color>
     <color name="slate">#DAF7EEEE</color>
+    <color name="gray_color">#dd323232</color>
 </resources>
